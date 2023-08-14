@@ -1,0 +1,117 @@
+
+/* in page preset margin padding and box-sizing for remove */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+/* in page backgroun image for set  */
+body{
+    background: url(im1.jpg) no-repeat;
+    /* height: 100%;
+    width: 100%; */
+    background-size: cover;
+    font-family: Arial;
+
+}  
+/* ul and li list-style remove */
+ul li {
+    /* margin: 0;
+    padding: 0; */
+    list-style: none;
+    
+}
+/* ul#main-il{
+   
+} */
+/* all ul li property */
+ul li{
+    float:left;
+    width: 200px;
+    height: 40px;
+    background-color: black;
+    opacity: .8;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    margin-right:2px;
+   
+
+}
+/* in ul in li in a tag set property */
+ul li a {
+    text-decoration: none;
+    color: white;
+    /* in a tag display block use to cover all area */
+    display: block; 
+  
+}
+/* ul in li in a tag green hover effect */
+ul li a:hover{
+    background-color: green;
+    border-radius: 10px;
+}
+
+/* display none for dorpdown  */
+ul li ul li {
+    display: none;
+}
+/*  showe display dropdown */
+ul li:hover ul li{
+    display: block;
+}
+/* flote left to right witout change order of text */
+header{
+    float: right;
+    margin-top: 20px;
+    margin-right: 5px;  
+}
+/* imge TAG USing size adjesment  */
+img{
+    height: 100px;
+    width: 100px;
+display: inline-block;
+}
+/* image logo location set */
+#logo{
+  
+position: absolute;
+margin: 20px;
+cursor: pointer;
+/* border: 20px; */
+border-radius: 20px;
+
+}
+/* li border redius set  */
+li{
+    border-radius:5px; 
+}
+#test{
+    display: flex;
+    margin-top: 1000px;
+    margin-left: 500px;
+    position: absolute;
+    display: flex;
+    border: 20px solid red;
+    border-radius: 10px;
+    min-width: auto;
+
+justify-content: center;
+width: auto;
+height: auto;
+font-size: 20px;
+font-weight: bold;
+}
+.book{
+    border: 2px royalblue solid;
+    margin: 2px;
+    
+}
+.book p{
+    text-decoration: underline;
+}
+
+
+
+
